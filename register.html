@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registeration</title>
+</head>
+<body>
+  <h2>Register yourself as a panda (if you think you are one)! </h2>
+  <!-- Use GET, not POST -->
+  <div>
+    <h3>
+    <form method="GET">
+      First Name: <input type="text" name="firstname"><br>
+      Last Name: <input type="text" name="lastname"><br>
+      Birthday: <input type="date" name="birthday"><br>
+      Gender: <br>
+        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender">Female<br>
+        <input type="radio" name="gender">Other<br>
+      Email: <input type="email" name="email" required><br>
+      Password: <input type="password" minlength="5" name="password"><br>
+      Select what you like to eat: <br>
+        <input type="checkbox" name="bamboos"> Bamboo
+        <input type="checkbox" name="carrots"> Carrot
+        <input type="checkbox" name="chocolate"> Chocolate
+        <input type="checkbox" name="apples"> Apple
+        <input type="checkbox" name="sweetpotato"> Sweet Potato<br>
+      Which zoo do you want to join?: <br>
+      <select name="home">
+        <option value="Ueno">Ueno zoo</option>
+        <option value="Oji">Oji zoo</option>
+        <option value="Aw">Adventure world</option>
+      </select>
+      <br>
+      <input type="submit" value="Register">
+      <input type="reset">
+    </form>
+  </h3>
+  </div>
+</body>
+</html>
